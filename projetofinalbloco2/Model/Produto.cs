@@ -20,7 +20,7 @@ namespace projetofinalbloco2.Model
         [Column(TypeName = "decimal(8,2)")]
         public decimal Preco { get; set; }
 
-        // public virtual Categoria? Categoria { get; set; }
+        public virtual Categoria? Categorias { get; set; }
 
     }
 }
